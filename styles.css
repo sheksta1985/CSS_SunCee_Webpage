@@ -235,7 +235,7 @@ div.leftSide-col {
 }
 
 .YouTubeFrame {
-    margin: 0 auto;
+    margin-left: 80px;
     border: 8px double #6699ff;
     box-shadow:  5px 4px 2px #b3ccff,
          0px 0px 3px 8px #b3ccff;
@@ -319,7 +319,7 @@ footer.footsy ul li {
 
 /*#################### Mobile ###########################*/
 
-@media screen and (max-width: 680px) {
+@media screen and (max-device-width: 680px) {
     ul.topnav li:not(:nth-child(1)) {
     display: none;
     } 
@@ -419,6 +419,9 @@ article p {
     font-size: 24px;    
     }
 
+.YouTubeFrame {
+    margin-left: 250px;
+    }
 }
 
 
